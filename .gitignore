@@ -5,6 +5,7 @@
 
 #Me
 /OCR.Tool.API.Test
+/OCR.Tool.API.Console.Test
 OCR.Tool.API/Resource/
 
 # User-specific files
