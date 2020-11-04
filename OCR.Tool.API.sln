@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR.Tool.API", "OCR.Tool.API\OCR.Tool.API.csproj", "{5DCF7241-7107-446F-AFB2-3D5D41A9E0D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCR.Tool.API", "OCR.Tool.API\OCR.Tool.API.csproj", "{5DCF7241-7107-446F-AFB2-3D5D41A9E0D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR.Tool.API.Common", "OCR.Tool.API.Common\OCR.Tool.API.Common.csproj", "{B4C23311-89C6-4722-923A-35AFC1231856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCR.Tool.API.Common", "OCR.Tool.API.Common\OCR.Tool.API.Common.csproj", "{B4C23311-89C6-4722-923A-35AFC1231856}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR.Tool.API.Model", "OCR.Tool.API.Model\OCR.Tool.API.Model.csproj", "{24C5BB79-30BF-4AED-BBEC-9D2056AB5539}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCR.Tool.API.Model", "OCR.Tool.API.Model\OCR.Tool.API.Model.csproj", "{24C5BB79-30BF-4AED-BBEC-9D2056AB5539}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR.Tool.API.Test", "OCR.Tool.API.Test\OCR.Tool.API.Test.csproj", "{65645641-3CA8-404E-A3EF-0954DE231810}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCR.Tool.API.Utils", "OCR.Tool.API.Utils\OCR.Tool.API.Utils.csproj", "{EECD4012-3072-4C71-8DDB-20137546EB9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR.Tool.API.Utils", "OCR.Tool.API.Utils\OCR.Tool.API.Utils.csproj", "{EECD4012-3072-4C71-8DDB-20137546EB9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCR.Tool.API.FormRecognizer", "OCR.Tool.API.FormRecognizer\OCR.Tool.API.FormRecognizer.csproj", "{8F989FC5-0E62-4642-BFC8-35161EA02FCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{24C5BB79-30BF-4AED-BBEC-9D2056AB5539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24C5BB79-30BF-4AED-BBEC-9D2056AB5539}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24C5BB79-30BF-4AED-BBEC-9D2056AB5539}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65645641-3CA8-404E-A3EF-0954DE231810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65645641-3CA8-404E-A3EF-0954DE231810}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65645641-3CA8-404E-A3EF-0954DE231810}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65645641-3CA8-404E-A3EF-0954DE231810}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EECD4012-3072-4C71-8DDB-20137546EB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EECD4012-3072-4C71-8DDB-20137546EB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EECD4012-3072-4C71-8DDB-20137546EB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EECD4012-3072-4C71-8DDB-20137546EB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F989FC5-0E62-4642-BFC8-35161EA02FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F989FC5-0E62-4642-BFC8-35161EA02FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F989FC5-0E62-4642-BFC8-35161EA02FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F989FC5-0E62-4642-BFC8-35161EA02FCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

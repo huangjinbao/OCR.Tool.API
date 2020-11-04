@@ -103,7 +103,7 @@ namespace OCR.Tool.API.Model.FormRecognizer
         /// </summary>
         /// <value>When includeTextDetails is set to true, a list of references to the text elements constituting this field.</value>
         [DataMember(Name = "elements")]
-        public List<ElementReference> Elements { get; set; }
+        public List<string> Elements { get; set; }
 
         /// <summary>
         /// The 1-based page number in the input document.

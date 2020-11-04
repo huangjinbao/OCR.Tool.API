@@ -71,7 +71,7 @@ namespace OCR.Tool.API.Model.FormRecognizer
         /// </summary>
         /// <value>When includeTextDetails is set to true, a list of references to the text elements constituting this table cell.</value>
         [DataMember(Name = "elements")]
-        public List<ElementReference> Elements { get; set; }
+        public List<string> Elements { get; set; }
 
         /// <summary>
         /// Is the current cell a header cell?

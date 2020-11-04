@@ -32,7 +32,7 @@ namespace OCR.Tool.API.Model.FormRecognizer
         /// </summary>
         /// <value>When includeTextDetails is set to true, a list of references to the text elements constituting this key or value.</value>
         [DataMember(Name = "elements")]
-        public List<ElementReference> Elements { get; set; }
+        public List<string> Elements { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object

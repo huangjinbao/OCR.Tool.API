@@ -76,7 +76,7 @@ namespace OCR.Tool.API.Utils.HttpRestful.Helper
                         var i = 0;
                         foreach (string key in parameters.Keys)
                         {
-                            buffer.AppendFormat(i > 0 ? "&{0}={1}" : "{0}={1}", key, parameters[key]);
+                            buffer.AppendFormat(i > 0 ? "&{0}={1}" : "?{0}={1}", key, parameters[key]);
                             i++;
                         }
                         uri += buffer.ToString();

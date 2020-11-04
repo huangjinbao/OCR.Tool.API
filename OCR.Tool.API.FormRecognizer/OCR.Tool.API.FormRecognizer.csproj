@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.FormRecognizer" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OCR.Tool.API.Common\OCR.Tool.API.Common.csproj" />
+    <ProjectReference Include="..\OCR.Tool.API.Model\OCR.Tool.API.Model.csproj" />
+    <ProjectReference Include="..\OCR.Tool.API.Utils\OCR.Tool.API.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

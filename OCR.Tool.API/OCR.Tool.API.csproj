@@ -19,6 +19,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OCR.Tool.API.Common\OCR.Tool.API.Common.csproj" />
+    <ProjectReference Include="..\OCR.Tool.API.FormRecognizer\OCR.Tool.API.FormRecognizer.csproj" />
+    <ProjectReference Include="..\OCR.Tool.API.Model\OCR.Tool.API.Model.csproj" />
+    <ProjectReference Include="..\OCR.Tool.API.Utils\OCR.Tool.API.Utils.csproj" />
   </ItemGroup>
 
 </Project>
